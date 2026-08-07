@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/aot-instances.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/aot-instances.aotdata static asmonly dedup-include=aot-instances.dll full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 soft-debug dwarfdebug no-direct-calls outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/aot-instances.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/aot-instances.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/aot-instances.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/aot-instances.dll.o</ObjectFile>
+      <IsDedupAssembly>True</IsDedupAssembly>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/buttons_Ios.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/buttons_Ios.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 soft-debug dwarfdebug no-direct-calls outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/buttons_Ios.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/buttons_Ios.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/buttons_Ios.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/buttons_Ios.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/System.Collections.Concurrent.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Collections.Concurrent.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls direct-pinvoke outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Collections.Concurrent.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Collections.Concurrent.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Collections.Concurrent.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Collections.Concurrent.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/System.Console.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Console.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls direct-pinvoke outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Console.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Console.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Console.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Console.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/System.Diagnostics.DiagnosticSource.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Diagnostics.DiagnosticSource.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls direct-pinvoke outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Diagnostics.DiagnosticSource.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Diagnostics.DiagnosticSource.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Diagnostics.DiagnosticSource.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Diagnostics.DiagnosticSource.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/System.Runtime.InteropServices.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.InteropServices.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls direct-pinvoke outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.InteropServices.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.InteropServices.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.InteropServices.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.InteropServices.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/System.Runtime.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls direct-pinvoke outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Runtime.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/System.Private.CoreLib.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Private.CoreLib.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls direct-pinvoke outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Private.CoreLib.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Private.CoreLib.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Private.CoreLib.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/System.Private.CoreLib.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+    <_AssembliesToAOT Include="obj/Debug/net10.0-ios/iossimulator-arm64/linked/Microsoft.iOS.dll">
+      <Arguments>--aot=mtriple=arm64-ios data-outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/Microsoft.iOS.aotdata static asmonly dedup-skip full readonly-value=ObjCRuntime.Runtime.Arch=i4/1 dwarfdebug no-direct-calls outfile=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/Microsoft.iOS.dll.s</Arguments>
+      <ProcessArguments>--debug -O=gsharedvt</ProcessArguments>
+      <Abi>ARM64</Abi>
+      <Arch>arm64</Arch>
+      <AOTData>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/Microsoft.iOS.aotdata</AOTData>
+      <AOTAssembly>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/Microsoft.iOS.dll.s</AOTAssembly>
+      <LLVMFile></LLVMFile>
+      <ObjectFile>obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/arm64/Microsoft.iOS.dll.o</ObjectFile>
+    </_AssembliesToAOT>
+  </ItemGroup>
+</Project>

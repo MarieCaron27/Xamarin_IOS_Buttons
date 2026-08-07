@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/marie/RiderProjects/buttons_Ios /buttons_Ios /bin/Debug/net10.0-ios/iossimulator-arm64/buttons_Ios.app/libSystem.Globalization.Native.dylib
