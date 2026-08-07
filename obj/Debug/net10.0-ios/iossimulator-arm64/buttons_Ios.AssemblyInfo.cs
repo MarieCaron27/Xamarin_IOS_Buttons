@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("buttons_Ios")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb444f3d78d70129c38715372bd02426e9cef558")]
 [assembly: System.Reflection.AssemblyProductAttribute("buttons_Ios")]
 [assembly: System.Reflection.AssemblyTitleAttribute("buttons_Ios")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

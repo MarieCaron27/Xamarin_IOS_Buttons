@@ -1154,22 +1154,17 @@ Lme_f:
 	.no_dead_strip buttons_Ios_ViewController_ViewDidLoad
 buttons_Ios_ViewController_ViewDidLoad:
 .loc 4 17 0 prologue_end
-.word 0xa9b17bfd
+.word 0xa9b77bfd
 .word 0x910003fd
-.word 0xd2800410
-.word 0x910003f1
-.word 0xcb100231
-.word 0x9100023f
-.word 0xa90167b8
-.word 0xf90013ba
+.word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #376]
-.word 0xf90017b0
+.word 0xf9000fb0
 .word 0xf9400211
-.word 0xf9001bb1
+.word 0xf90013b1
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
@@ -1177,43 +1172,41 @@ ldr x0, [x16, #56]
 .word 0xf9400011
 .word 0xb4000051
 bl _p_1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xf94017b1
-.word 0xf9417631
+.word 0xf9400fb1
+.word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
+.word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf941f631
+.word 0xf9400fb1
+.word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 18 0
-.word 0xf94017b1
-.word 0xf9423631
+.word 0xf9400fb1
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_17
-.word 0xf94017b1
-.word 0xf942a631
+.word 0xf9400fb1
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 22 0
-.word 0xf94017b1
-.word 0xf942e631
+.word 0xf9400fb1
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_18
-.word 0xf90077a0
-.word 0xf94017b1
-.word 0xf9436631
+.word 0xf90047a0
+.word 0xf9400fb1
+.word 0xf942f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1e273000
@@ -1222,261 +1215,106 @@ bl _p_18
 .word 0x9e6703c2
 .word 0xd2a862de
 .word 0x9e6703c3
-.word 0x910183a0
+.word 0x910143a0
 .word 0xd2800000
+.word 0xf9002ba0
+.word 0xf9002fa0
 .word 0xf90033a0
 .word 0xf90037a0
-.word 0xf9003ba0
-.word 0xf9003fa0
-.word 0x910183a0
+.word 0x910143a0
 bl _p_19
-.word 0x910183a0
-.word 0x910103a0
+.word 0x910143a0
+.word 0x9100c3a0
+.word 0xf9402ba0
+.word 0xf9001ba0
+.word 0xf9402fa0
+.word 0xf9001fa0
 .word 0xf94033a0
 .word 0xf90023a0
 .word 0xf94037a0
 .word 0xf90027a0
-.word 0xf9403ba0
-.word 0xf9002ba0
-.word 0xf9403fa0
-.word 0xf9002fa0
-.word 0xf94017b1
-.word 0xf9452631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a1
-.word 0xaa0103e0
-.word 0x910103a2
-.word 0xfd4023a0
-.word 0xfd4027a1
-.word 0xfd402ba2
-.word 0xfd402fa3
-.word 0xf9400021
-.word 0xf9433030
-.word 0xd63f0200
-.word 0xf94017b1
-.word 0xf9460631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 23 0
-.word 0xf94017b1
-.word 0xf9464631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #384]
-.word 0xaa0003f9
-.loc 4 25 0
-.word 0xf94017b1
-.word 0xf946c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_18
-.word 0xf90073a0
-.word 0xf94017b1
-.word 0xf9474631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_20
-.word 0xf9006fa0
-.word 0xf94017b1
-.word 0xf947a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406fa1
-.word 0xf94073a3
-.word 0xd2800000
-.word 0xaa0303e0
-.word 0xd2800002
-.word 0xf9400063
-.word 0xf9442870
-.word 0xd63f0200
-.word 0xf94017b1
-.word 0xf9486631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 26 0
-.word 0xf94017b1
-.word 0xf948a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_18
-.word 0xf9006ba0
-.word 0xf94017b1
-.word 0xf9492631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_21
-.word 0xf90067a0
-.word 0xf94017b1
-.word 0xf9498631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94067a1
-.word 0xf9406ba3
-.word 0xd2800000
-.word 0xaa0303e0
-.word 0xd2800002
-.word 0xf9400063
-.word 0xf9442470
-.word 0xd63f0200
-.word 0xf94017b1
-.word 0xf94a4631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 31 0
-.word 0xf94017b1
-.word 0xf94a8631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf90057a0
-.word 0xd2800000
-bl _p_20
-.word 0xf9005ba0
-.word 0xf94017b1
-.word 0xf94b1631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0xd2800000
-.word 0xd2800020
-.word 0x9e6703e0
-.word 0xfd005fa0
-.word 0xd2800000
-.word 0xd2800000
-.word 0x9e6703e0
-.word 0xfd0063a0
-.word 0xd2800040
-
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #392]
-.word 0x3980d410
-.word 0xb5000050
-bl _p_3
-
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #392]
-bl _p_4
-.word 0xf94057a1
-.word 0xf9405ba3
-.word 0xfd405fa0
-.word 0xfd4063a1
-.word 0xf90053a0
-.word 0xd2800002
-.word 0xd2800004
-.word 0xd2800005
-.word 0xd2800006
-.word 0xd2800027
-.word 0xf90003ff
-.word 0xf90007ff
-.word 0xd280005e
-.word 0xf9000bfe
-bl _p_22
-.word 0xf94017b1
-.word 0xf94d9631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xaa0003f8
-.loc 4 32 0
-.word 0xf94017b1
-.word 0xf94df631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_18
-.word 0xf9004fa0
-.word 0xf94017b1
-.word 0xf94e7631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404fa3
-.word 0xaa1803e1
-.word 0xd2800020
-.word 0xaa0303e0
-.word 0xd2800022
-.word 0xf9400063
-.word 0xf9443070
-.word 0xd63f0200
-.word 0xf94017b1
-.word 0xf94f3631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 34 0
-.word 0xf94017b1
-.word 0xf94f7631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_18
-.word 0xf9004ba0
-.word 0xf94017b1
-.word 0xf94ff631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #400]
-bl _p_23
-.word 0xf90047a0
-.word 0xf94017b1
-.word 0xf9508631
+.word 0xf9400fb1
+.word 0xf944b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a1
-.word 0xf9404ba3
-.word 0xd2800000
-.word 0xaa0303e0
-.word 0xd2800002
-.word 0xf9400063
-.word 0xf9442c70
+.word 0xaa0103e0
+.word 0x9100c3a2
+.word 0xfd401ba0
+.word 0xfd401fa1
+.word 0xfd4023a2
+.word 0xfd4027a3
+.word 0xf9400021
+.word 0xf9433030
 .word 0xd63f0200
-.word 0xf94017b1
-.word 0xf9514631
+.word 0xf9400fb1
+.word 0xf9459631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 38 0
-.word 0xf94017b1
-.word 0xf9518631
+.loc 4 37 0
+.word 0xf9400fb1
+.word 0xf945d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_18
 .word 0xf90043a0
-.word 0xf94017b1
-.word 0xf9520631
+.word 0xf9400fb1
+.word 0xf9465631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_buttons_Ios_got@PAGE+0
+add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
+ldr x0, [x16, #384]
+bl _p_20
+.word 0xf9003fa0
+.word 0xf9400fb1
+.word 0xf946e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xf94043a3
+.word 0xd2800080
+.word 0xaa0303e0
+.word 0xd2800082
+.word 0xf9400063
+.word 0xf9442470
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf947a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 41 0
+.word 0xf9400fb1
+.word 0xf947e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_18
+.word 0xf9003ba0
+.word 0xf9400fb1
+.word 0xf9486631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000740
+.word 0x54000720
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #408]
+ldr x0, [x16, #392]
 .word 0xd2801001
 .word 0xd2801001
-bl _p_24
+bl _p_21
 .word 0xaa0003e1
-.word 0xf94043a2
+.word 0xf9403ba2
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000580
+.word 0x54000560
 .word 0xd5033bbf
 .word 0xf900103a
 .word 0x91008020
@@ -1492,12 +1330,12 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #416]
+ldr x0, [x16, #400]
 .word 0xf9002020
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x3, [x16, #424]
+ldr x3, [x16, #408]
 .word 0xf9001423
 .word 0xf9401803
 .word 0xf9000c23
@@ -1505,45 +1343,44 @@ ldr x3, [x16, #424]
 .word 0xf9000820
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_25
-.word 0xf94017b1
-.word 0xf954d631
+bl _p_22
+.word 0xf9400fb1
+.word 0xf94b3631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 41 0
-.word 0xf94017b1
-.word 0xf9551631
+.loc 4 44 0
+.word 0xf9400fb1
+.word 0xf94b7631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9555631
+.word 0xf9400fb1
+.word 0xf94bb631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94167b8
-.word 0xf94013ba
+.word 0xf9400bba
 .word 0x910003bf
-.word 0xa8cf7bfd
+.word 0xa8c97bfd
 .word 0xd65f03c0
 .word 0xd28018e0
 .word 0xaa1103e1
-bl _p_26
+bl _p_23
 .word 0xd2800a20
 .word 0xaa1103e1
-bl _p_26
+bl _p_23
 
 Lme_10:
 .text
 	.align 4
 	.no_dead_strip buttons_Ios_ViewController_DoSomething
 buttons_Ios_ViewController_DoSomething:
-.loc 4 44 0 prologue_end
+.loc 4 47 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #416]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -1566,7 +1403,7 @@ bl _p_1
 .word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 45 0
+.loc 4 48 0
 .word 0xf9400fb1
 .word 0xf941b631
 .word 0xb4000051
@@ -1574,13 +1411,13 @@ bl _p_1
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x0, [x16, #440]
-bl _p_27
+ldr x0, [x16, #424]
+bl _p_24
 .word 0xf9400fb1
 .word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 46 0
+.loc 4 49 0
 .word 0xf9400fb1
 .word 0xf9427631
 .word 0xb4000051
@@ -1606,7 +1443,7 @@ buttons_Ios_ViewController_get_myButton:
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #432]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -1645,7 +1482,7 @@ buttons_Ios_ViewController_set_myButton_UIKit_UIButton:
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #440]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -1698,7 +1535,7 @@ buttons_Ios_ViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #448]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -1763,7 +1600,7 @@ bl _p_18
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_28
+bl _p_25
 .word 0xf94013b1
 .word 0xf9445631
 .word 0xb4000051
@@ -1777,7 +1614,7 @@ bl _p_28
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_29
+bl _p_26
 .word 0xf94013b1
 .word 0xf9452631
 .word 0xb4000051
@@ -1810,7 +1647,7 @@ Lme_14:
 	.align 4
 	.no_dead_strip buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs
 buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs:
-.loc 4 38 0 prologue_end
+.loc 4 41 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -1819,7 +1656,7 @@ buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs:
 
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #456]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -1842,18 +1679,18 @@ bl _p_1
 .word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 39 0
+.loc 4 42 0
 .word 0xf94017b1
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_30
+bl _p_27
 .word 0xf94017b1
 .word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 40 0
+.loc 4 43 0
 .word 0xf94017b1
 .word 0xf9427631
 .word 0xb4000051
@@ -1919,9 +1756,8 @@ unwind_info:
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,13,12,31,0,68,14,64,157,8,158,7,68,13,29,13,12
 	.byte 31,0,68,14,80,157,10,158,9,68,13,29,30,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,68,149
-	.byte 19,150,18,68,151,17,152,16,68,153,15,13,12,31,0,68,14,96,157,12,158,11,68,13,29,22,12,31,0,68,14,240
-	.byte 1,157,30,158,29,68,13,29,84,152,28,153,27,68,154,26,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153
-	.byte 8,154,7
+	.byte 19,150,18,68,151,17,152,16,68,153,15,13,12,31,0,68,14,96,157,12,158,11,68,13,29,17,12,31,0,68,14,144
+	.byte 1,157,18,158,17,68,13,29,68,154,16,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 
 .text
 	.align 4
@@ -1932,245 +1768,221 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #472]
 br x16
-.word 274
+.word 262
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___System_Type_System_Type
 plt_UIKit_UIApplication_Main_string___System_Type_System_Type:
 _p_2:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #480]
 br x16
-.word 277
+.word 265
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_3:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #488]
 br x16
-.word 282
+.word 270
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_4:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #496]
 br x16
-.word 285
+.word 273
 	.no_dead_strip plt_UIKit_UISceneConfiguration__ctor_string_UIKit_UIWindowSceneSessionRole
 plt_UIKit_UISceneConfiguration__ctor_string_UIKit_UIWindowSceneSessionRole:
 _p_5:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #504]
 br x16
-.word 288
+.word 276
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_6:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #512]
 br x16
-.word 293
+.word 281
 	.no_dead_strip plt_buttons_Ios_SceneDelegate_get_Window
 plt_buttons_Ios_SceneDelegate_get_Window:
 _p_7:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #520]
 br x16
-.word 298
+.word 286
 	.no_dead_strip plt_UIKit_UIWindow__ctor_UIKit_UIWindowScene
 plt_UIKit_UIWindow__ctor_UIKit_UIWindowScene:
 _p_8:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #528]
 br x16
-.word 300
+.word 288
 	.no_dead_strip plt_buttons_Ios_SceneDelegate_set_Window_UIKit_UIWindow
 plt_buttons_Ios_SceneDelegate_set_Window_UIKit_UIWindow:
 _p_9:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #536]
 br x16
-.word 305
+.word 293
 	.no_dead_strip plt_UIKit_UIStoryboard_FromName_string_Foundation_NSBundle
 plt_UIKit_UIStoryboard_FromName_string_Foundation_NSBundle:
 _p_10:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #544]
 br x16
-.word 307
+.word 295
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_11:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #552]
 br x16
-.word 312
+.word 300
 	.no_dead_strip plt__jit_icall_mono_create_corlib_exception_1
 plt__jit_icall_mono_create_corlib_exception_1:
 _p_12:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #560]
 br x16
-.word 315
+.word 303
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_13:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #568]
 br x16
-.word 318
+.word 306
 	.no_dead_strip plt_UIKit_UIResponder__ctor
 plt_UIKit_UIResponder__ctor:
 _p_14:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #576]
 br x16
-.word 320
+.word 308
 	.no_dead_strip plt_ObjCRuntime_NativeHandle_op_Implicit_intptr
 plt_ObjCRuntime_NativeHandle_op_Implicit_intptr:
 _p_15:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #584]
 br x16
-.word 325
+.word 313
 	.no_dead_strip plt_UIKit_UIViewController__ctor_ObjCRuntime_NativeHandle
 plt_UIKit_UIViewController__ctor_ObjCRuntime_NativeHandle:
 _p_16:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #592]
 br x16
-.word 330
+.word 318
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_17:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #600]
 br x16
-.word 335
+.word 323
 	.no_dead_strip plt_buttons_Ios_ViewController_get_myButton
 plt_buttons_Ios_ViewController_get_myButton:
 _p_18:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #608]
 br x16
-.word 340
+.word 328
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
 plt_CoreGraphics_CGRect__ctor_single_single_single_single:
 _p_19:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 330
+	.no_dead_strip plt_UIKit_UIImage_FromBundle_string
+plt_UIKit_UIImage_FromBundle_string:
+_p_20:
+adrp x16, mono_aot_buttons_Ios_got@PAGE+0
+add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 335
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_21:
+adrp x16, mono_aot_buttons_Ios_got@PAGE+0
+add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 342
-	.no_dead_strip plt_UIKit_UIColor_get_Green
-plt_UIKit_UIColor_get_Green:
-_p_20:
+.word 340
+	.no_dead_strip plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler
+plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
+_p_22:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 347
-	.no_dead_strip plt_UIKit_UIColor_get_Black
-plt_UIKit_UIColor_get_Black:
-_p_21:
+.word 348
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_23:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 352
-	.no_dead_strip plt_Foundation_NSAttributedString__ctor_string_UIKit_UIFont_UIKit_UIColor_UIKit_UIColor_UIKit_UIColor_UIKit_NSParagraphStyle_Foundation_NSLigatureType_single_Foundation_NSUnderlineStyle_UIKit_NSShadow_single_Foundation_NSUnderlineStyle
-plt_Foundation_NSAttributedString__ctor_string_UIKit_UIFont_UIKit_UIColor_UIKit_UIColor_UIKit_UIColor_UIKit_NSParagraphStyle_Foundation_NSLigatureType_single_Foundation_NSUnderlineStyle_UIKit_NSShadow_single_Foundation_NSUnderlineStyle:
-_p_22:
+.word 353
+	.no_dead_strip plt_System_Console_WriteLine_string
+plt_System_Console_WriteLine_string:
+_p_24:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 357
-	.no_dead_strip plt_UIKit_UIImage_FromBundle_string
-plt_UIKit_UIImage_FromBundle_string:
-_p_23:
+.word 355
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_25:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 362
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
-_p_24:
+.word 360
+	.no_dead_strip plt_buttons_Ios_ViewController_set_myButton_UIKit_UIButton
+plt_buttons_Ios_ViewController_set_myButton_UIKit_UIButton:
+_p_26:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 367
-	.no_dead_strip plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler
-plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
-_p_25:
+.word 365
+	.no_dead_strip plt_buttons_Ios_ViewController_DoSomething
+plt_buttons_Ios_ViewController_DoSomething:
+_p_27:
 adrp x16, mono_aot_buttons_Ios_got@PAGE+0
 add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 375
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
-_p_26:
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #688]
-br x16
-.word 380
-	.no_dead_strip plt_System_Console_WriteLine_string
-plt_System_Console_WriteLine_string:
-_p_27:
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #696]
-br x16
-.word 382
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
-_p_28:
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #704]
-br x16
-.word 387
-	.no_dead_strip plt_buttons_Ios_ViewController_set_myButton_UIKit_UIButton
-plt_buttons_Ios_ViewController_set_myButton_UIKit_UIButton:
-_p_29:
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #712]
-br x16
-.word 392
-	.no_dead_strip plt_buttons_Ios_ViewController_DoSomething
-plt_buttons_Ios_ViewController_DoSomething:
-_p_30:
-adrp x16, mono_aot_buttons_Ios_got@PAGE+0
-add x16, x16, mono_aot_buttons_Ios_got@PAGEOFF
-ldr x16, [x16, #720]
-br x16
-.word 394
+.word 367
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_buttons_Ios_got, 728
+.lcomm mono_aot_buttons_Ios_got, 688
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -2193,7 +2005,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F8D85DDD-1218-4A52-82BF-F68A7C9709DF"
+	.asciz "209E15E1-3BE2-420F-AD07-8151ABFBFA29"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -2282,15 +2094,15 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 60,60,728,200,31,23,0,102
-	.long 391195135,0,4104,128,8,8,7,9
-	.long 8388607,0,4,25,4952,0,0,0
+	.long 58,58,688,200,28,23,0,102
+	.long 391195135,0,3837,128,8,8,7,9
+	.long 8388607,0,4,25,4688,0,0,0
 	.long 0,840,200,424,0,352,192,80
 	.long 256,0,456,832,56,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 192,83,240,172,129,118,83,160,198,201,167,44,139,174,247,22
+	.byte 184,58,37,212,238,177,30,84,28,242,136,36,14,41,159,110
 	.globl _mono_aot_module_buttons_Ios_info
 	.align 3
 _mono_aot_module_buttons_Ios_info:
@@ -3526,29 +3338,7 @@ LDIFF_SYM174=Lme_f - buttons_Ios_ViewController__ctor_intptr
 Lfde15_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_23:
 
-	.byte 5
-	.asciz "Foundation_NSAttributedString"
-
-	.byte 24,16
-LDIFF_SYM175=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM175
-	.byte 2,35,0,0,7
-	.asciz "Foundation_NSAttributedString"
-
-LDIFF_SYM176=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM176
-LTDIE_23_POINTER:
-
-	.byte 13
-LDIFF_SYM177=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM177
-LTDIE_23_REFERENCE:
-
-	.byte 14
-LDIFF_SYM178=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM178
 	.byte 2
 	.asciz "buttons_Ios.ViewController:ViewDidLoad"
 	.asciz "buttons_Ios_ViewController_ViewDidLoad"
@@ -3560,34 +3350,24 @@ LDIFF_SYM178=LTDIE_23 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM179=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM179
-	.byte 1,106,11
-	.asciz "buttonTitle"
-
-LDIFF_SYM180=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM180
-	.byte 1,105,11
-	.asciz "highlightedAttributedTitle"
-
-LDIFF_SYM181=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM181
-	.byte 1,104,0
+LDIFF_SYM175=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM175
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM182=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM182
+LDIFF_SYM176=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM176
 Lfde16_start:
 
 	.long 0
 	.align 3
 	.quad buttons_Ios_ViewController_ViewDidLoad
 
-LDIFF_SYM183=Lme_10 - buttons_Ios_ViewController_ViewDidLoad
-	.long LDIFF_SYM183
+LDIFF_SYM177=Lme_10 - buttons_Ios_ViewController_ViewDidLoad
+	.long LDIFF_SYM177
 	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,84,152,28,153,27,68,154,26
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
 Lfde16_end:
 
@@ -3597,29 +3377,29 @@ Lfde16_end:
 	.asciz "buttons_Ios.ViewController:DoSomething"
 	.asciz "buttons_Ios_ViewController_DoSomething"
 
-	.byte 4,44
+	.byte 4,47
 	.quad buttons_Ios_ViewController_DoSomething
 	.quad Lme_11
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM184=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM184
+LDIFF_SYM178=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM178
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM185=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM185
+LDIFF_SYM179=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM179
 Lfde17_start:
 
 	.long 0
 	.align 3
 	.quad buttons_Ios_ViewController_DoSomething
 
-LDIFF_SYM186=Lme_11 - buttons_Ios_ViewController_DoSomething
-	.long LDIFF_SYM186
+LDIFF_SYM180=Lme_11 - buttons_Ios_ViewController_DoSomething
+	.long LDIFF_SYM180
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -3638,22 +3418,22 @@ Lfde17_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM187=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM187
+LDIFF_SYM181=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM181
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM188=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM188
+LDIFF_SYM182=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM182
 Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad buttons_Ios_ViewController_get_myButton
 
-LDIFF_SYM189=Lme_12 - buttons_Ios_ViewController_get_myButton
-	.long LDIFF_SYM189
+LDIFF_SYM183=Lme_12 - buttons_Ios_ViewController_get_myButton
+	.long LDIFF_SYM183
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -3672,27 +3452,27 @@ Lfde18_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM190=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM190
+LDIFF_SYM184=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM184
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM191=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM191
+LDIFF_SYM185=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM185
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM192=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM192
+LDIFF_SYM186=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM186
 Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad buttons_Ios_ViewController_set_myButton_UIKit_UIButton
 
-LDIFF_SYM193=Lme_13 - buttons_Ios_ViewController_set_myButton_UIKit_UIButton
-	.long LDIFF_SYM193
+LDIFF_SYM187=Lme_13 - buttons_Ios_ViewController_set_myButton_UIKit_UIButton
+	.long LDIFF_SYM187
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -3711,93 +3491,93 @@ Lfde19_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM194=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM194
+LDIFF_SYM188=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM188
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM195=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM195
+LDIFF_SYM189=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM189
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM196=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM196
+LDIFF_SYM190=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM190
 Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad buttons_Ios_ViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM197=Lme_14 - buttons_Ios_ViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM197
+LDIFF_SYM191=Lme_14 - buttons_Ios_ViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM191
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
 Lfde20_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_24:
+LTDIE_23:
 
 	.byte 5
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM198=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM192=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM192
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM199=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM199
-LTDIE_24_POINTER:
+LDIFF_SYM193=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM193
+LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM200=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM200
-LTDIE_24_REFERENCE:
+LDIFF_SYM194=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM194
+LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM201=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM201
+LDIFF_SYM195=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM195
 	.byte 2
 	.asciz "buttons_Ios.ViewController:<ViewDidLoad>b__1_0"
 	.asciz "buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs"
 
-	.byte 4,38
+	.byte 4,41
 	.quad buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs
 	.quad Lme_15
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM202=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM202
+LDIFF_SYM196=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM196
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM203=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM203
+LDIFF_SYM197=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM197
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM204=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM204
+LDIFF_SYM198=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM198
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM205=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM205
+LDIFF_SYM199=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM199
 Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs
 
-LDIFF_SYM206=Lme_15 - buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs
-	.long LDIFF_SYM206
+LDIFF_SYM200=Lme_15 - buttons_Ios_ViewController__ViewDidLoadb__1_0_object_System_EventArgs
+	.long LDIFF_SYM200
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3

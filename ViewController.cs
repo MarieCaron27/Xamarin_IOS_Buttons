@@ -20,10 +20,10 @@ namespace buttons_Ios
 			//UIButton myButton = new UIButton(UIButtonType.System);
 			
 			myButton.Frame = new CGRect(25, 25, 300, 150);
-			myButton.SetTitle("Hello, World!", UIControlState.Normal);
+			//myButton.SetTitle("Hello, World!", UIControlState.Normal);
 			
-			myButton.SetTitleColor(UIColor.Green, UIControlState.Normal);
-			myButton.SetTitleShadowColor(UIColor.Black, UIControlState.Normal);
+			//myButton.SetTitleColor(UIColor.Green, UIControlState.Normal);
+			//myButton.SetTitleShadowColor(UIColor.Black, UIControlState.Normal);
 			
 			
 			//var buttonTitle = "Hello, World!";
@@ -34,9 +34,9 @@ namespace buttons_Ios
 			//var highlightedAttributedTitle = new NSAttributedString(buttonTitle, foregroundColor: UIColor.Green, strikethroughStyle: NSUnderlineStyle.Thick);
 			//myButton.SetAttributedTitle(highlightedAttributedTitle, UIControlState.Highlighted);
 			
-			myButton.SetImage (UIImage.FromBundle ("Buttons/MagicWand.png"), UIControlState.Normal);
-			//myButton.SetImage (UIImage.FromBundle ("Buttons/MagicWand_Highlight.png"), UIControlState.Highlighted);
-			//myButton.SetImage (UIImage.FromBundle ("Buttons/MagicWand_On.png"), UIControlState.Selected);
+			myButton.SetImage (UIImage.FromBundle ("power.jpeg"), UIControlState.Selected);
+			//myButton.SetImage (UIImage.FromBundle ("Buttons/MagicWand_Highlight.png"), UIControlState.Normal);
+			//myButton.SetImage (UIImage.FromBundle ("Buttons/MagicWand_On.png"), UIControlState.Highlighted);
 			
 			myButton.TouchUpInside += (sender, e) => {
 				DoSomething();
